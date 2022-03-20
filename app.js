@@ -186,3 +186,19 @@ if(major) {
     alert("Go home kid");
 }
 */
+
+//VARIABLE CASTING
+
+/*
+var names = "Marcus";
+var names = Array(names);
+console.log(names, typeof(names));
+
+var age = 22;
+var age = String(age);
+console.log(age, typeof(age));
+
+var boolean = "true";
+var boolean = Boolean(boolean);
+console.log(boolean, typeof(boolean));
+*/
