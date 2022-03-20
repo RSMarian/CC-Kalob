@@ -202,3 +202,48 @@ var boolean = "true";
 var boolean = Boolean(boolean);
 console.log(boolean, typeof(boolean));
 */
+
+
+//COMPARISON OPERATORS
+
+/*
+== - equal to
+!= - not equal
+!== - not equal value or not equal type
+>= - greater than or equal to
+> -greater than
+< - lesser than
+<= - lesser than or equal to
+=== - STRICT EQUAL (equal value and type)
+
+var age = "18";
+if(age == 18) {
+    console.log("You can get a drivers license!")
+}
+
+var course = "css course"
+if(course != "js course"){
+    console.log("You're in the wrong course!")
+}
+
+var doggo = "true";
+doggo = Boolean(doggo);
+if(doggo == true){
+    console.log("hi doggo");
+}
+
+var age = 19;
+if(age == "19") {
+    console.log("Data and data type matched!")
+} else {
+    console.warn("Wrong data/data type!")
+}
+*/
+
+var age = 19;
+age = String(age);
+if(age === "19") {
+    console.log("Data and data type matched!");
+} else {
+    console.warn("Wrong data/data type!");
+}
