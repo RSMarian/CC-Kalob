@@ -238,7 +238,6 @@ if(age == "19") {
 } else {
     console.warn("Wrong data/data type!")
 }
-*/
 
 var age = 19;
 age = String(age);
@@ -247,3 +246,26 @@ if(age === "19") {
 } else {
     console.warn("Wrong data/data type!");
 }
+*/
+
+
+//MINI PROJECT 3
+
+// 1. Ask the user for a number
+// 2. Cast the input to a Number
+// 3. Make sure the number is valid
+// 4. If the number is over (or equal to) 18, change some text on the page
+
+/*
+var age = prompt("What is your age?");
+age = Number(age);
+
+var welcome = document.getElementById("welcome")
+
+if(age && age >= 18) {
+    welcome.innerHTML = "You can vote. Choose wisely!"
+} else {
+    welcome.innerHTML = "You still have a few years to go."
+}
+great success
+*/
